@@ -1,0 +1,94 @@
+.App{
+  padding: 12px;
+  margin: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.content {
+  /* background-color: rgb(204, 204, 219); */
+  padding: 10px;
+  margin: 6px 2px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text {
+  margin-top: 0;
+  font-size: 16px;
+}
+.site-card-border-less-wrapper{
+  box-shadow: 3px 3px 2px gray;
+}
+.card{
+  height: 613px;
+}
+.ant-card-body{
+  height:261px ;
+  padding: 12px !important;
+}
+.ant-card-body:hover {
+  background-color: #ddf0f0;
+  color: bisque;
+  cursor: pointer;
+  box-shadow: 3px 3px 2px gray;
+}
+.card0{
+  width: 100%;
+}
+.card-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-card{
+  width: 500px;
+  display: inline-block;
+}
+.carousel-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.search{
+  width: 34%;
+}
+.card-container{
+  display: flex;
+  justify-content: space-between;
+}
